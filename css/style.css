@@ -621,9 +621,9 @@ body {
 /*---portfolio*/
 a,
 button {
-  transition-property: color, box-shadow, border, fill;
-  transition-timing-function: 2s linear ease-in;
-  transition-duration: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, border, fill, box-shadow;
+  transition: 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .curent-card-portofolio {
   content: "";
